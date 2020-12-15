@@ -1,0 +1,8 @@
+2020-12-14T06:29:39+00:00 CRITICAL /home/wwwroot/www.wekok.com/wp-content/plugins/wp-github-gos-master/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php 中第 185 行的 Uncaught GuzzleHttp\Exception\ConnectException: cURL error 52: Empty reply from server (see http://curl.haxx.se/libcurl/c/libcurl-errors.html) in /home/wwwroot/www.wekok.com/wp-content/plugins/wp-github-gos-master/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:185
+Stack trace:
+#0 /home/wwwroot/www.wekok.com/wp-content/plugins/wp-github-gos-master/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(149): GuzzleHttp\Handler\CurlFactory::createRejection()
+#1 /home/wwwroot/www.wekok.com/wp-content/plugins/wp-github-gos-master/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(102): GuzzleHttp\Handler\CurlFactory::finishError()
+#2 /home/wwwroot/www.wekok.com/wp-content/plugins/wp-github-gos-master/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish()
+#3 /home/wwwroot/www.wekok.com/wp-content/plugins/wp-github-gos-master/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke()
+#4 /home/wwwroot/www.wekok.com/wp-content/plugin
+
